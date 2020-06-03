@@ -9,14 +9,14 @@ Filter / Remove keys from object recursively.
 
 if you are using npm, run
 ```
-npm install --save recursive-object-key-filter
+npm install --save @naveen-bharathi/recursive-object-key-filter
 ```
 
 or
 
 if you are using yarn package manager, run
 ```
-yarn add recursive-object-key-filter
+yarn add @naveen-bharathi/recursive-object-key-filter
 ```
 
 ## Example
@@ -24,9 +24,9 @@ yarn add recursive-object-key-filter
 Remove the key **`__typename`** from an object.
 
 ```javascript
-import filter from 'recursive-object-key-filter'; // ES6
+import filter from '@naveen-bharathi/recursive-object-key-filter'; // ES6
 // or
-const filter = require('recursive-object-key-filter'); // ES5
+const filter = require('@naveen-bharathi/recursive-object-key-filter'); // ES5
 
 const dirtyObject = {
   'id': '12345',
@@ -46,9 +46,9 @@ console.log(cleanObject);
 Remove any of the keys **`__typename`** , **`id`** from an object.
 
 ```javascript
-import filter from 'recursive-object-key-filter'; // ES6
+import filter from '@naveen-bharathi/recursive-object-key-filter'; // ES6
 // or
-const filter = require('recursive-object-key-filter'); // ES5
+const filter = require('@naveen-bharathi/recursive-object-key-filter'); // ES5
 
 const dirtyObject = {
   'id': '12345',
