@@ -1,0 +1,39 @@
+{
+  "name": "@naveen-bharathi/recursive-object-key-filter",
+  "version": "1.0.3",
+  "description": "Filter / Remove keys from object recursively.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveen-bharathi/recursive-object-key-filter.git"
+  },
+  "author": "Naveen Bharathi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naveen-bharathi/recursive-object-key-filter/issues"
+  },
+  "homepage": "https://github.com/naveen-bharathi/recursive-object-key-filter#readme",
+  "keywords": [
+    "recursive",
+    "object",
+    "key",
+    "filter",
+    "remover",
+    "object-key-filter",
+    "recursive-object-key-filter",
+    "object-key",
+    "object-filter",
+    "key-filter"
+  ],
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "jest": "^26.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
